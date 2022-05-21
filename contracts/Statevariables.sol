@@ -15,7 +15,8 @@ constructor() public{
 contract Local{
     function store() pure public returns(uint) {
         uint num =10;
-        string memory name="Manoj"; //String cannot be declared as local variable
+        string memory name="Manoj"; //String cannot be declared as local variable;  to declare as local
+        //varialble we need to user 'memory' keyword.
         return num;
     }
 
