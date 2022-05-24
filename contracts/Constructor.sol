@@ -7,11 +7,12 @@ pragma solidity >=0.5.0<0.9.0;
 contract Const{
     uint public length;
     //COnstructor without arguments 
-    constructor(){
+   /* constructor(){
         length = 50;
-    }
-    //Constructor having arguments
-    /*constructor( uint new_length){
-        length = new_length;
     }*/
+    //Constructor having arguments
+    constructor( uint new_length){
+        length = new_length;
+    }
+
 }
