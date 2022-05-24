@@ -7,3 +7,7 @@ contract Getter{
         return age;
     } 
 }
+
+/* View vs Pure
+View: Used when we are not modifying state variable but just viewing the state variable
+Pure: Used when we are not viewing or modifying state variable*/
